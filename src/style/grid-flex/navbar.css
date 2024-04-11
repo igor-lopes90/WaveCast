@@ -1,0 +1,19 @@
+.navbar__items {
+    /* 
+    Código do curso
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+
+    /* Código que achei mais funcional ao projeto */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar__item button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .4rem;
+
