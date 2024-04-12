@@ -18,6 +18,7 @@ button {
     --fonte-textos: 'Open Sans', sans-serif;
     --azul-neon: #2BDEFD;
     --azul-fundo: #01080E;
+    --azul-escuro: #041832;
     --cinza-claro: #999;
     --cinza-escuro: #666;
     --cinza: rgba(196, 196, 196, 0.2);
@@ -187,4 +188,37 @@ main {
     margin-bottom: .25rem;
 }
 
+/*Player*/
+.player_descricao, .player_temporizador-cronometro {
+    cursor: default;
+}
+
+.player_temporizador-cronometro_tempo {
+    width: 100%;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.player_descricao h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.player_descricao span {
+    font-size: 0.9rem;
+}
+
+.player_volume_nivel {
+    width: 70%;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.secao-player {
+    padding: 16px;
+    width: 100%;
+    background-color: #041832;
+}
 

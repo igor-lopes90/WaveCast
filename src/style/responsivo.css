@@ -9,6 +9,10 @@
         display: none;
     }
 
+    main {
+        margin-bottom: 1.5rem;
+    }
+
     .container {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -40,9 +44,30 @@
         padding: 0;
     }
 
+    .player_temporizador-botoes button:nth-child(1),
+    .player_temporizador-botoes button:nth-child(2),
+    .player_temporizador-botoes button:nth-child(4),
+    .player_temporizador-botoes button:nth-child(5),
+    .player_temporizador-cronometro span,
+    .player_volume button,
+    .player_volume div {
+    display: none;
+    }
+
+    .secao-player {
+        margin-bottom: 3.5rem;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+
+    body {
+        grid-template-areas: 
+        "aside header"
+        "aside main"
+        "div div";
+    }
 
     .container {
         padding-left: 1.25rem;
@@ -79,6 +104,7 @@
         padding: 1.25rem;
     }
 
+    
 }
 
 @media only screen and (min-width: 1400px) {
@@ -90,6 +116,10 @@
 
     .menu-lateral {
         width: 228px;
+    }
+
+    main {
+        margin-bottom: .5rem;
     }
 
 }
