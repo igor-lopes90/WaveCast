@@ -10,7 +10,7 @@
     }
 
     main {
-        margin-bottom: 1.5rem;
+        margin-bottom: 4rem;
     }
 
     .container {
@@ -44,20 +44,9 @@
         padding: 0;
     }
 
-    .player_temporizador-botoes button:nth-child(1),
-    .player_temporizador-botoes button:nth-child(2),
-    .player_temporizador-botoes button:nth-child(4),
-    .player_temporizador-botoes button:nth-child(5),
-    .player_temporizador-cronometro span,
-    .player_volume button,
-    .player_volume div {
-    display: none;
+    .player {
+        display: none;
     }
-
-    .secao-player {
-        margin-bottom: 3.5rem;
-    }
-
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
